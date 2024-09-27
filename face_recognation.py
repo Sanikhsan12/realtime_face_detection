@@ -3,7 +3,7 @@ import cv2 as cv
 
 # objek 
 # penggunan r / double slash untuk mengatasi masalah perizinan pada path cascade
-objek_path = (r"D:\Productivity\belajar koding\python\python-menengah\citra_digital\face_detection\haarcascade_frontalface_alt.xml") 
+objek_path = (r"python\python-menengah\citra_digital\realtime_face_detection\haarcascade_frontalface_alt.xml") 
 acuan_gambar = cv.CascadeClassifier(objek_path) # mengambil dataset wajah
 camera = cv.VideoCapture(0) # membuka kamera
 
